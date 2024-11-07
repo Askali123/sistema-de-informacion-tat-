@@ -1,0 +1,144 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SanSerif", Arial, sans-serif;
+    color: #243238; /* Color de texto */
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Pantalla de Login */
+#login-section {
+    background-color: #fff;
+    width: 300px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #0C254B; /* Azul para los títulos */
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #0C254B; /* Azul */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #243238; /* Más oscuro al pasar el ratón */
+}
+
+/* Dashboard */
+#dashboard nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C254B; /* Azul para el encabezado */
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#dashboard nav button {
+    background-color: #F41F00; /* Rojo para el botón de cerrar sesión */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#dashboard nav button:hover {
+    background-color: #c21807; /* Rojo más oscuro en hover */
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.summary div {
+    background-color: #f4f4f4;
+    color: #243238; /* Color de texto */
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Botones de módulos */
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.modules button {
+    background-color: #F41F00; /* Rojo para botones de acción */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.modules button:hover {
+    background-color: #c21807; /* Rojo más oscuro */
+}
+
+/* Módulos */
+#module-content {
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+#module-header {
+    font-size: 24px;
+    color: #0C254B; /* Azul */
+    margin-bottom: 20px;
+}
+
+#module-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #243238; /* Color de texto */
+}
